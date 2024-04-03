@@ -1,0 +1,61 @@
+<div class="custom-container mx-auto nav-bar bg-transparent">
+  <div class="top-header bg-primary row mx-0 py-2 text-white">
+      <div class="col-md-6">
+          <div class="d-flex align-items-center">
+              <a href="tel:1800 41 99099"><i
+                      class="bi bi-telephone-outbound-fill icon-beauty d-inline-flex justify-content-center align-items-center rounded-circle"></i>
+              </a> <span class="font-size-14 fw-bold ms-2">1800 41 99099 (Toll Free)</span>
+
+              <a href="mailto:feedback@99acres.com" class="ms-4"><i
+                      class="bi bi-envelope-fill icon-beauty d-inline-flex justify-content-center align-items-center rounded-circle"></i>
+              </a> <span class="font-size-14 fw-bold ms-2">feedback@99acres.com</span>
+          </div>
+      </div>
+      <div class="col-md-6 text-end">
+          <button class="btn btn-light"><i class="bi bi-box-arrow-in-right me-2"></i> Login/Register</button>
+      </div>
+  </div>
+<nav class="navbar navbar-expand-lg bg-white navbar-light py-0 pe-4 ps-0">
+      <a href="index.html" class="navbar-brand d-flex align-items-center text-center main-color-bg px-3">
+
+          <img class="img-fluid" src="https://static.99acres.com/universalhp/img/nnacres_white_v2.png" alt="Icon">
+      </a>
+
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      
+       <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto">
+              <a href="#" class="nav-item nav-link active">
+                  For Buyers</a>
+              <a href="about.html" class="nav-item nav-link">
+                  For Tenants</a>
+              <div class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                      For Owners</a>
+                  <div class="dropdown-menu rounded-0 m-0">
+                      <a href="property-list.html" class="dropdown-item">Property List</a>
+                      <a href="property-type.html" class="dropdown-item">Property Type</a>
+                      <a href="property-agent.html" class="dropdown-item">Property Agent</a>
+                  </div>
+              </div>
+              <div class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                      For Dealers / Builders</a>
+                  <div class="dropdown-menu rounded-0 m-0">
+                      <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                      <a href="404.html" class="dropdown-item">404 Error</a>
+                  </div>
+              </div>
+              <a href="contact.html" class="nav-item nav-link">
+                  Insights</a>
+          </div>
+       <a href="" class="btn btn-primary px-3 d-none d-lg-flex position-relative add-property-btn"><span>Add Property </span></a> 
+
+          <a href="#" class="btn btn-primary px-3 d-lg-flex position-relative add-property-btn "><span
+                  class="text-white">Add Property </span> <span
+                  class="badge bg-danger position-absolute new-badge border">Free</span></a>
+      </div>
+  </nav>
+</div>

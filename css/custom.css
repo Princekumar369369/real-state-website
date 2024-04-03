@@ -1,0 +1,224 @@
+*{
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;}
+
+:root {
+    --primary: #00B98E;
+    --secondary: #FF6922;
+    --light: #EFFDF5;
+    --dark: #0E2E50;
+}
+.bg-black{
+    background-color: black !important;
+}
+
+.z-1{
+    z-index: 2;
+}
+input,label{
+    cursor: pointer;
+}
+.dropdown-menu {
+    z-index: 2;
+}
+.font-size-10{
+    font-size: 10px;
+}
+.font-size-16{
+    font-size: 16px;
+}
+.font-size-14{
+    font-size: 14px;
+}
+.font-size-12{
+    font-size: 12px;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-24{
+    font-size: 24px;
+}
+
+.font-color-dark{
+    color: var(--dark);
+
+}
+.icon-beauty{
+    background: white;
+    color: black;
+    width: 24px;
+    height: 26px;
+    padding: 17px;
+    cursor: pointer;
+}
+
+.icon-beauty2{
+    width: 46px;
+    height: 46px;
+}
+
+.icon-beauty span  {
+    position: relative;
+    mix-blend-mode: difference;
+}
+.icon-beauty:hover{
+    background-color: black;
+    color: white;
+    transition: all .4s ease-in;
+}
+
+
+
+.add-property-btn span {
+    position: relative;
+    mix-blend-mode: normal;
+}
+
+.add-property-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    background: var(--dark);
+    transition: transform 0.3s;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+.add-property-btn:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/********** Header CSS **********/
+.navbar-brand img{
+    width: 105px;
+}
+
+.logo-img{width: 105px;
+}
+.custom-container{
+    max-width: 1800px;
+}
+
+.new-badge{
+    top: -14px !important;
+    right: -9px;
+}
+.custom-drop-down{
+ width: 402px;
+}
+.rotate-icon::after {
+    content: "";
+    transform: rotate(180deg);}
+
+    .dropdown-menu.show {
+        display: block;
+    }
+/********** Header CSS End **********/
+
+/********** Property CSS **********/
+.home-collection-card{
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.option-card .card{
+    height: 262px;
+}
+.cat-item .rounded div img{
+    max-width: 48px;
+}
+
+.blog-card{
+    bottom: -80%;
+}
+
+.blog-img{
+    /* width: 80px !important;
+    height: 60px;
+    object-fit: contain; */
+}
+.contact-us{
+    margin-top: 300px;
+}
+
+.project-image{
+    height: 179px;
+    object-fit: cover;
+}
+
+
+/* residential projcet css  */
+.residential-card .card{
+    position: relative;
+    width: 190px;
+    height: 240px;
+    left: 26%;
+   }
+
+.residential-card .card .image{
+    position: absolute;
+    top: 30%;
+    left: -60px;
+    width: 100px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.regident-figure{
+    padding-right: 42px;
+}
+.regident-figure img{
+    width: 64px !important;
+    margin: auto;
+    border-radius: 50%;
+    height: 64px;
+    object-fit: contain;
+
+}
+.residential-card .card .image img{
+width: 100%;
+height: 100%;
+}
+
+.residential-card .card .content{
+    position: absolute;
+    left: 22%;
+    top: 5px;
+    width: 78%;
+
+}
+
+.upcomming-project-img{
+    height: 400px !important;
+    object-fit: cover;
+}
+
+.city-img{
+    height: 100px;
+    width: 100px !important;
+    object-fit: cover;
+}
+
+.choose-card{
+    height: 198px;
+}
+.artical-container .owl-nav,.residential-project-contianer .owl-nav,.new-luncked-project .owl-nav{
+
+width: 109%;
+
+left: -49px; 
+}
+.a5etf{
+    color: white;
+}
+
+.cat-item .rounded{
+    height: 260px;
+}
